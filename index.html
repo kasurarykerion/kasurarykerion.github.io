@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasura | Computer Science Student | Pentester | Full-Stack Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="text">LOADING</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">K<span class="highlight">.</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-content">
+                    <div class="subtitle">Hello, I'm</div>
+                    <h1 class="glitch" data-text="KASURA">KASURA</h1>
+                    <div class="job-title">
+                        <span id="typed"></span>
+                    </div>
+                    <p class="description">Pushing the boundaries of security and technology.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary">Get In Touch</a>
+                        <a href="#projects" class="btn secondary">View Projects</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kasurarykerion" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/kasura_unix" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        <a href="mailto:kasurahdd@mailum.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <div class="image-container">
+                        <img src="pfp.jpeg" alt="Kasura Profile" class="profile-image">
+                        <div class="image-glitch-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Who I Am</div>
+                <div class="separator"></div>
+            </div>
+            <div class="about-content">
+                <div class="text-content">
+                    <h3>A passionate fullstack developer & pentester from France</h3>
+                    <p>I'm a Cyber Security Expert, Penetration Tester, and Full-Stack Developer with extensive experience in network security, application development, and ethical hacking. I specialize in designing secure systems and uncovering vulnerabilities to enhance digital safety.</p>
+                    <p>Currently working on a DLL anti-injector and exploring the fields of webshell development and Assembly. I'm always looking to push the boundaries of what's possible in security and technology.</p>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="info-title">Name:</span>
+                            <span class="info-value">Kasura</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">kasurahdd@mailum.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">From:</span>
+                            <span class="info-value">France</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Discord:</span>
+                            <span class="info-value">2019og</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn primary">Contact Me</a>
+                </div>
+                <div class="stats-content">
+                    <div class="stats-item">
+                        <div class="stats-number counter" data-target="5">0</div>
+                        <div class="stats-text">Years of Experience</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number counter" data-target="20">0</div>
+                        <div class="stats-text">Projects Completed</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number counter" data-target="50">0</div>
+                        <div class="stats-text">Systems Secured</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number counter" data-target="15">0</div>
+                        <div class="stats-text">Programming Languages</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="section-subtitle">What I Know</div>
+                <div class="separator"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Cybersecurity & Pentesting</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="skill-name">Network Security</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-bug"></i></div>
+                            <div class="skill-name">Penetration Testing</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <div class="skill-name">Reverse Engineering</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                            <div class="skill-name">Digital Forensics</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-search"></i></div>
+                            <div class="skill-name">Steganography</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <div class="skill-name">Infrastructure Security</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript/TypeScript</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">C#</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Rust</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="category-title">Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <div class="skill-name">React</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <div class="skill-name">Node.js</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <div class="skill-name">HTML5/CSS3</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div class="skill-name">Databases</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="skill-name">Mobile Apps</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                            <div class="skill-name">DevOps</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-subtitle">My Work</div>
+                <div class="separator"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="roblox">Roblox</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="security">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=DLL+Anti-Injector" alt="DLL Anti-Injector">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DLL Anti-Injector</h3>
+                        <p class="project-description">Advanced security tool that prevents DLL injection attacks in real-time, protecting applications from memory tampering.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>Assembly</span>
+                            <span>Windows API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/kasurarykerion"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="roblox">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Roblox+API+Scrapper" alt="Roblox API Scrapper">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Roblox API Scrapper</h3>
+                        <p class="project-description">Python tool for scanning and scraping the Roblox API, enabling developers to access and analyze platform data efficiently.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>API</span>
+                            <span>Web Scraping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/kasurarykerion/RobloxAPIScrapper"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="roblox development">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Roblox+Backend+Development" alt="Roblox Backend Development">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Roblox Backend Development</h3>
+                        <p class="project-description">Comprehensive guide and toolkit for Roblox backend development, featuring best practices and optimization techniques.</p>
+                        <div class="project-tech">
+                            <span>Lua</span>
+                            <span>Roblox-TS</span>
+                            <span>Backend</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/kasurarykerion/Mastering-Roblox-Backend-Development-Tips-Tricks"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="security development">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400?text=Network+Security+Scanner" alt="Network Security Scanner">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Network Security Scanner</h3>
+                        <p class="project-description">Advanced network vulnerability scanner that identifies potential security weaknesses and provides detailed remediation steps.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Networking</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/kasurarykerion"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-subtitle">My Journey</div>
+                <div class="separator"></div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Started Coding Journey</h3>
+                        <span class="date">2018</span>
+                        <p>Began learning programming with a focus on low-level languages and system architecture.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Cyber Security Research</h3>
+                        <span class="date">2019 - 2020</span>
+                        <p>Conducted extensive research in network security and exploitation techniques.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Full-Stack Development</h3>
+                        <span class="date">2020 - 2021</span>
+                        <p>Mastered modern web technologies and developed complex web applications.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Game Security & Development</h3>
+                        <span class="date">2021 - Present</span>
+                        <p>Specialized in game security, anti-cheat systems, and Roblox platform development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-subtitle">Get In Touch</div>
+                <div class="separator"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p>kasurahdd@mailum.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Discord</h3>
+                            <p>2019og</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="details">
+                            <h3>GitHub</h3>
+                            <p>kasurarykerion</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fab fa-x-twitter"></i>
+                        </div>
+                        <div class="details">
+                            <h3>Twitter</h3>
+                            <p>@kasura_unix</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/kasurahdd@mailum.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <div class="focus-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <div class="focus-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <div class="focus-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <div class="focus-border"></div>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2023 Kasura. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/kasurarykerion" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/kasura_unix" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    <a href="mailto:kasurahdd@mailum.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
